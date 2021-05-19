@@ -1,0 +1,5 @@
+  <?php
+
+
+   $item = "Here the list of extra Command(s) and Setting(s) 📟\n[Stats and Info(s)] 📊\n\nChange payout minimum amount limit\n/minipay [amount]\n\nChange channels minimum Subscribers limit\n/minisub [subscribers]\n\nRemove !admin\n/removeadmin [id] \n\nAdd ! admin\n/addadmin [id] [@username]\n\nTo get subs of any channel or group using ID or @username\n/getsub [-ID]\n/getsub [@username]\n\nTo get -ID of any public channel\n/getid [@username]\n\nBan or Unban channels by @username\n/ban [-ID]\n/ban [@username]\n/unban [-ID]\n/unban [@username]\n\nArrange channel list by ID\n/arr\n\nClear payment of channel\n/clearpayment [@username]\n\nReduce amount to channel.\n/fine [@username] [amount]\n\nReward amount to channel\n/rwd [@username] [Amount]\n\nShow full detail of channel.\n/show [@username] or [-ID]\n/s [@username] or [-ID]\n\nShow full detail of User. \n/view [userID]\n\nRemove channel from list.\n/del [@username] or [-ID]\n/rem [S.no]\n\nUpdate channel New payment detail.\n/update [@username] [number]\n";
+        $bot->send_message($chatid, $item, null, null, 'HTML');
